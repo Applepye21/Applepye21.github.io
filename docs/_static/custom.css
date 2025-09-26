@@ -1,0 +1,35 @@
+/* Override navbar colors */
+.navbar-inverse {
+    background-color: #17610f !important;
+    border-color: #17610f !important;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover {
+    color: #ffcc00;
+}
+
+.navbar-inverse .navbar-nav > li {
+    margin-bottom: 0em;
+}
+
+/* Sidebar */
+.bs-sidenav {
+    background-color: #17610f1c;
+}
+
+.bs-sidenav li > a:hover {
+    background-color: #0e3b0a;
+}
+
+.bs-sidenav form {
+    display: none !important
+}
+
+/* Text */
+ul li {
+    margin-bottom: 0.5em;
+}
+
+ol li {
+    margin-bottom: 0.5em;
+}
