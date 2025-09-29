@@ -123,3 +123,15 @@ html_sidebars = {
         # <-- note: NO 'relations.html' here
     ],
 }
+
+# JavaScript files for Sphinx HTML output, preserving original order
+# jquery-fix.js is commented out because it can break mobile navbar & search
+html_js_files = [
+    'documentation_options.js',        # original
+    'doctools.js',                     # original
+    'sphinx_highlight.js',             # original
+    'js/jquery-1.12.4.min.js',         # jQuery must be loaded before Bootstrap
+    # 'js/jquery-fix.js',               # no longer needed
+    'bootstrap-3.4.1/js/bootstrap.min.js',  # Bootstrap JS
+    'bootstrap-sphinx.js',             # Sphinx Bootstrap tweaks
+]
