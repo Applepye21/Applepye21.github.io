@@ -15,3 +15,41 @@ In addition, I love learning new things and adding skills to my repertoire, maki
 I am currently looking for work and would love to hear about any position that may be available if it appears that I am a qualified candidate. I am open to on-site and hybrid work anywhere in North Carolina's Research Triangle or in the greater Raleigh area, and I am also happy to accept remote positions.
 
 In lieu of a resume, please check out the [experience page](experience.md) to see my employment, education, and volunteering history; see the [projects page](projects.md) to see examples of some of my work; see the [publications page](publications.md) to get more information on the articles that I have published; and see the [about me page](about_me.md) to learn about my story on a more personal level. If you would like to reach out to me for any reason, visit the [contact page](contact.md) for information on how to find me. 
+
+> [!NOTE]
+> This website is not designed for use on mobile devices. If you are using a mobile device and sepearte tabs do not appear at the top of the page, use the links in the paragraph above to navigate the website.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+```{eval-rst}
+.. toctree::
+   :caption: Contents
+   :hidden:
+
+   experience.md
+   projects.md
+   publications.md
+   about_me.md
+   contact.md
+
+   ```

@@ -1,35 +1,34 @@
-/* Override navbar colors */
+/* Navbar */
+/* Changes the color of the navbar */
 .navbar-inverse {
     background-color: #17610f !important;
     border-color: #17610f !important;
 }
-
+/* Changes the color of the navbar link text when hovering over the link */
 .navbar-inverse .navbar-nav > li > a:hover {
     color: #ffcc00;
 }
-
+/* Makes the link area the same height as the navbar */
 .navbar-inverse .navbar-nav > li {
     margin-bottom: 0em;
 }
 
 /* Sidebar */
+/* Changes the color of the sidebar */
 .bs-sidenav {
     background-color: #17610f1c;
 }
-
-.bs-sidenav li > a:hover {
-    background-color: #0e3b0a;
-}
-
+/* Removes the searchbar from the sidebar */
 .bs-sidenav form {
     display: none !important
 }
 
 /* Text */
+/* Adds a half line of separation between bullet points */
 ul li {
     margin-bottom: 0.5em;
 }
-
+/* Adds a half line of separation between numbered list items */
 ol li {
     margin-bottom: 0.5em;
 }

@@ -72,7 +72,7 @@ html_theme_options = {
 
     # Global TOC depth for "site" navbar tab. (Default: 1)
     # Switching to -1 shows all levels.
-    'globaltoc_depth': 3,
+    'globaltoc_depth': 1,
 
     # Include hidden TOCs in Site navbar?
     #
@@ -111,4 +111,15 @@ html_theme_options = {
     # Choose Bootstrap version.
     # Values: "3" (default) or "2" (in quotes)
     'bootstrap_version': '3',
+}
+
+#modify the sidebar to remove the search box, "previous" and "next" links, and "view page source" link
+html_sidebars = {
+    # apply to all pages:
+    "**": [
+        "localtoc.html",     # per-page TOC (or use 'globaltoc.html' if you prefer)
+        # <-- note: NO 'sourcelink.html' here
+        # <-- note: NO 'searchbox.html' here
+        # <-- note: NO 'relations.html' here
+    ],
 }
