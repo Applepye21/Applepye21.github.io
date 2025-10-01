@@ -6,14 +6,14 @@
 
 ## **Early Life**
 
-I was born in Boston, Massachusetts during July of 2000 and grew up in the nearby suburb of [Burlington](https://www.google.com/maps/place/Burlington,+MA/). Since I was a child, I have been fascinated by physical science, data, and the natural world. As a result, I excelled in science and math throughout my education. 
+I was born in Boston, Massachusetts and grew up in the nearby suburb of Burlington. Since I was a child, I have been fascinated by physical science, data, and the natural world. As a result, I excelled in science and math throughout my education. 
 
-Soon after I started high school, I became very passionate about music, prompting me to learn to play the guitar. I quickly became involved in writing my own songs with friends, recording them, and performing them live. By the end of my senior year I was a part of three separate bands and had recorded an [album](https://www.youtube.com/playlist?list=OLAK5uy_mrzd7HQIhSeL6iRFxmUUWvHK6n05LPQBQ).
+Soon after I started high school, I became very passionate about music, prompting me to learn to play the guitar. I quickly became involved in writing my own songs with friends, recording them, and performing them live. By the end of my senior year I was a part of three separate bands and had recorded an album.
 
 ![Performing Live](_static/performance.jpg)
 *Me playing guitar on stage in Somerville, Massachusetts with my band, "Reapercussion" in December 2017.*
 
-In June 2018, it was time for me to graduate from [Burlington High School](https://www.burlingtonpublicschools.org/schools/burlington_high_school). During my time there, I proved myself to be a capable and successful student, accumulating a 3.74 GPA.
+In June 2018, it was time for me to graduate from Burlington High School. During my time there, I proved myself to be a capable and successful student, accumulating a 3.74 GPA.
 
 ## **College**
 
@@ -47,7 +47,7 @@ When I started at Plymouth State, I quickly became involved in clubs on campus. 
 I took on additional responsibility as a member of the executive board of CCM for my sophomore, junior, and senior years. In this role, I handled the group's external communication and planned meetings and events. During my senior year, I was elected outreach coordinator for the school's AMS chapter. Like with CCM, I handled the group's external communications and helped make planning decisions for the group.
 
 ![Tabling for CCM](_static/Catholic_Campus_Ministry_tableing.jpg)
-*Me (center) and my fellow CCM executive board members, Ryan Kudish (left) and Maria Mutesi (right), tabling at the fall 2021 semester Plymouth State activities fair.*
+*Me (center) and my fellow CCM executive board members tabling at the fall 2021 semester Plymouth State activities fair.*
 
 ## **Graduate School**
 
@@ -81,7 +81,7 @@ In addition to outdoor activities, I continued playing guitar and writing music.
 # **Hobbies**
 * Skiing
 * Hiking
-* Playing guitar
+* Guitar
 * Writing music
 * Golfing
 * Disc golf

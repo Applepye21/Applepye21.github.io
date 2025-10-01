@@ -58,7 +58,6 @@ html_theme_options = {
         ('Projects', 'projects'),
         ('Publications', 'publications'),
         ('About Me', 'about_me'),
-        ('Contact', 'contact'),
     ],
 
     # Render the next and previous page links in navbar. (Default: true)

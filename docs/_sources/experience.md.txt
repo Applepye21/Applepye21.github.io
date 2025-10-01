@@ -42,7 +42,7 @@ As a research assistant, I:
 
     * [European Reanalysis version 5 (ERA5)](https://cds.climate.copernicus.eu/datasets/reanalysis-era5-single-levels?tab=download)
     * [North American Mesoscale (NAM) Analysis](https://rda.ucar.edu/datasets/d609000/)
-    * [Soil Moisture Active/Passive (SMAP)](https://nsidc.org/data/smap/data)
+    * [Soil Moisture Active/Passive (SMAP)](https://smap.jpl.nasa.gov/data/)
 
 * Ran the [Weather Research and Forecasting (WRF)](https://www.mmm.ucar.edu/models/wrf) model to investigate drought in the western United States. I produced over 20 simulations in total, many containing several months of model output.
 
@@ -67,13 +67,6 @@ After graduation, I was promoted from a research assistant to a research associa
 
 I left this position voluntarily during November 2024 after completing all tasks set before me and accepting a position as a contractor at the EPA.  
 
-## **St. Veronica Parish**
-
-***Assistant to the Property Manager***  
-***June 2021 - August 2021, May 2022 - July 2022***
-
-This was a summer job performing a wide variety of indoor and outdoor cleaning and maintenance duties at both church properties of [St. Veronica Parish](https://www.stveronicama.org/) in Burlington, Massachusetts.
-
 ## **Plymouth State University - Office of Academic Support Services**
 
 ***Math and Physics Tutor***  
@@ -83,17 +76,6 @@ At the start of my senior year of college my professor for Atmospheric Dynamics 
 
 I left this position when I graduated college and moved to Utah.
 
-## **Shaw's Grocery**
-
-***Bakery Associate***  
-***July 2020 - August 2020, November 2020 - January 2021, May 2021 - June 2021***
-
-I worked at the [Shaw's Bakery](https://local.shaws.com/ma/burlington/180-a-cambridge-st/bakery.html) during college breaks. My responsibilities were to:
-
-* Prepare and package baked goods
-* Organize products on the sales floor
-* Assist customers with finding products and ordering cakes
-
 ## **Plymouth State University - Math Activities Center**
 
 ***Math Tutor***  
@@ -102,30 +84,6 @@ I worked at the [Shaw's Bakery](https://local.shaws.com/ma/burlington/180-a-camb
 After my freshman year calculus professor recommended that I become a math tutor, I joined Plymouth State's Math Activity Center (MAC). I worked at the Center during the fall of my sophomore year, assisting students that arrived looking for help with algebra, pre-calculus, and calculus. Students who came in were drop-ins without appointments, often requiring me to be working with multiple students at a time, each with different sets of coursework.
 
 Unfortunately, I was unable to fit tutoring into my schedule during the spring semester of 2020, ending my time at the MAC.
-
-## **Camps Car Wash**
-
-*Cashier and Detailer*  
-*May 2019 - August 2019*
-
-Working at [Camps Car Wash](https://www.campscarwash.com/) was a summer job. My responsibilities were to:
-
-* Ring up car wash sales at the cash register
-* Prepare cars for cleaning before going through the wash
-* Clean customer cars brought in for detailing
-* Maintain a clean appearance of the property
-
-## **Ski Haus**
-
-***Warehouse Associate and Customer Assistant***  
-***September 2017 - April 2018, December 2018 - January 2019***
-
-I worked at [Ski Haus](https://skihaus.com) during my senior year of high school as well as the winter break of my freshman year of college. My responsibilities were to:
-
-* Organize skis, snowboards, and boots in the warehouse
-* Provide customers with their new equipment when it was ready for sale or rent
-* Inspect the quality of the customer's equipment before it was released to them
-* Maintain a clean appearance on the sales floor
 
 ---
 

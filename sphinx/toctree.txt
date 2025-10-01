@@ -7,6 +7,5 @@
    projects.md
    publications.md
    about_me.md
-   contact.md
 
    ```
