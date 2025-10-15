@@ -42,3 +42,43 @@ In lieu of a resume, please check out the [experience page](experience.md) to se
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -127,7 +127,7 @@
 <p>The purpose of this Python tool is to make aircraft observations easily usable when assessing the performance of CMAQ forecasts. With the code available, CMAQ-FlightEval is primarily set up to handle observations from the <a class="reference external" href="https://csl.noaa.gov/projects/aeromma/" rel="noreferrer" target="_blank">AEROMMA field campaign</a>, as this was the dataset I was using for my CMAQ performance analysis. If other sets of aircraft observations are desired, the code was designed to allow for new functions to be incorporated that can deal with the structure of the new data without interfering with the core functionality of the tool.</p>
 <p>When using AEROMMA data, a wide range of analysis functions are built into the package. This includes functions that plot general model bias, horizontal model bias, and figures like the one below showing vertical model bias. This particular figure shows that <a class="reference external" href="https://pubchem.ncbi.nlm.nih.gov/compound/Benzene" rel="noreferrer" target="_blank">benzene</a> was under-forecasted in the upper atmosphere but slightly overforecasted in the lower atmosphere.</p>
 <p><img alt="CMAQ-FlightEval Vertical Analysis Plot" src="_images/CMAQ_FlightEval_Vertical_Plot.png" />
-<em>The figure shows a comparison of CMAQ benzene concentration forecasts to AEROMMA benzene concentration observations across a series of 500 meter thick altitude bins. CMAQ data is shown in red, while AEROMMA data is shown in black. For each altitude bin, the inter-quartile range or IQR (horizontal bars), the mean (plus signs), and the median (circles) are plotted for both datasets to understand the spread of the data in each altitude bin. In addition, the left plot shows a histogram representing the number of CMAQ-AEROMMA data pairs in each altitude bin to get a sense of how much data the statistics in a given range bin are based on.</em></p>
+<em>The figure shows a comparison of CMAQ benzene concentration forecasts to AEROMMA benzene concentration observations across a series of 500 meter thick altitude bins. CMAQ data is shown in red, while AEROMMA data is shown in black. For each altitude bin, the inter-quartile range or IQR (horizontal bars), the mean (plus signs), and the median (circles) are plotted for both datasets to understand the spread of the data in each altitude bin. In addition, the left plot shows a histogram representing the number of CMAQ-AEROMMA data pairs in each altitude bin to get a sense of how much data the statistics in a given altitude bin are based on.</em></p>
 </section>
 <section id="north-american-mesoscale-nam-analysis-data-extraction">
 <h2><strong>North American Mesoscale (NAM) Analysis Data Extraction</strong><a class="headerlink" href="#north-american-mesoscale-nam-analysis-data-extraction" title="Link to this heading">¶</a></h2>
@@ -167,13 +167,13 @@
 <img alt="Weather Balloon Data" src="_images/sounding.png" /></p></li>
 <li><p><a class="reference external" href="https://vortex.plymouth.edu/mapwall/regionalrad/loop.html?prod_name=pr" rel="noreferrer" target="_blank">Radar images</a> for specific regions<br />
 <img alt="Radar Image" src="_images/pr_radar.png" /></p></li>
-<li><p><a class="reference external" href="https://vortex.plymouth.edu/mapwall/sfc/global/loop.html?region_name=us&amp;amp;prod_name=cloud" rel="noreferrer" target="_blank">CONUS cloud cover observations</a><br />
+<li><p><a class="reference external" href="https://vortex.plymouth.edu/mapwall/sfc/global/loop.html?region_name=us&prod_name=cloud" rel="noreferrer" target="_blank">CONUS cloud cover observations</a><br />
 <img alt="CONUS Cloud Cover" src="_images/cloud_cover.png" /></p></li>
-<li><p><a class="reference external" href="https://vortex.plymouth.edu/mapwall/sfc/global/loop.html?region_name=us&amp;amp;prod_name=dew_point_temperature" rel="noreferrer" target="_blank">CONUS surface dewpoint temperature observations</a><br />
+<li><p><a class="reference external" href="https://vortex.plymouth.edu/mapwall/sfc/global/loop.html?region_name=us&prod_name=dew_point_temperature" rel="noreferrer" target="_blank">CONUS surface dewpoint temperature observations</a><br />
 <img alt="CONUS Dew Point" src="_images/dew_point.png" /></p></li>
-<li><p><a class="reference external" href="https://vortex.plymouth.edu/mapwall/sfc/global/loop.html?region_name=us&amp;amp;prod_name=heat_index" rel="noreferrer" target="_blank">CONUS heat index temperature observations</a>
+<li><p><a class="reference external" href="https://vortex.plymouth.edu/mapwall/sfc/global/loop.html?region_name=us&prod_name=heat_index" rel="noreferrer" target="_blank">CONUS heat index temperature observations</a>
 <img alt="Heat Index" src="_images/heat_index.png" /></p></li>
-<li><p><a class="reference external" href="https://vortex.plymouth.edu/mapwall/sfc/global/loop.html?region_name=us&amp;amp;prod_name=wind_chill_temperature" rel="noreferrer" target="_blank">CONUS wind chill temperature observations</a><br />
+<li><p><a class="reference external" href="https://vortex.plymouth.edu/mapwall/sfc/global/loop.html?region_name=us&prod_name=wind_chill_temperature" rel="noreferrer" target="_blank">CONUS wind chill temperature observations</a><br />
 <img alt="Wind Chill" src="_images/wind_chill.png" /></p></li>
 </ul>
 </section>
