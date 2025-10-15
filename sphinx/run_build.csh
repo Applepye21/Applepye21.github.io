@@ -5,4 +5,5 @@ sphinx-build .. ../docs
 python python_scripts/delete_toctree.py
 mv ../README.txt ../README.md
 touch ../docs/.nojekyll
+rm ../docs/.doctrees/environment.pickle
 

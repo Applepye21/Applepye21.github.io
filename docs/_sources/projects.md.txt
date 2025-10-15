@@ -12,7 +12,10 @@ During my time as a contractor at the [Environmental Protection Agency](https://
 
 The purpose of this Python tool is to make aircraft observations easily usable when assessing the performance of CMAQ forecasts. With the code available, CMAQ-FlightEval is primarily set up to handle observations from the [AEROMMA field campaign](https://csl.noaa.gov/projects/aeromma/), as this was the dataset I was using for my CMAQ performance analysis. If other sets of aircraft observations are desired, the code was designed to allow for new functions to be incorporated that can deal with the structure of the new data without interfering with the core functionality of the tool.
 
-When using AEROMMA data, a wide range of analysis functions are included in the package. This includes functions that plot horizontal model error, vertical model error, and overall error. 
+When using AEROMMA data, a wide range of analysis functions are built into the package. This includes functions that plot general model bias, horizontal model bias, and figures like the one below showing vertical model bias. This particular figure shows that [benzene](https://pubchem.ncbi.nlm.nih.gov/compound/Benzene) was under-forecasted in the upper atmosphere but slightly overforecasted in the lower atmosphere.
+
+![CMAQ-FlightEval Vertical Analysis Plot](_static/CMAQ_FlightEval_Vertical_Plot.png)
+*The figure shows a comparison of CMAQ benzene concentration forecasts to AEROMMA benzene concentration observations across a series of 500 meter thick altitude bins. CMAQ data is shown in red, while AEROMMA data is shown in black. For each altitude bin, the inter-quartile range or IQR (horizontal bars), the mean (plus signs), and the median (circles) are plotted for both datasets to understand the spread of the data in each altitude bin. In addition, the left plot shows a histogram representing the number of CMAQ-AEROMMA data pairs in each altitude bin to get a sense of how much data the statistics in a given range bin are based on.*
 
 ## **North American Mesoscale (NAM) Analysis Data Extraction** 
 
