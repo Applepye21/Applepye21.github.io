@@ -6,7 +6,7 @@
 
 ## **Early Life**
 
-I was born in Boston, Massachusetts and grew up in the nearby suburb of Burlington. Since I was a child, I have been fascinated by physical science, data, and the natural world. As a result, I excelled in science and math throughout my education. 
+I was born in Massachusetts and grew up in Burlington, a suburb of Boston. Since I was a child, I have been fascinated by physical science, data, and the natural world. As a result, I excelled in science and math throughout my education. 
 
 Soon after I started high school, I became very passionate about music, prompting me to learn to play the guitar. I quickly became involved in writing my own songs with friends, recording them, and performing them live. By the end of my senior year I was a part of three separate bands and had recorded an album.
 
@@ -74,7 +74,7 @@ As my work with the University of Utah was coming to a close, I secured a positi
 
 Since moving to North Carolina, I have continued partaking in outdoor activities. My fiancée and I make regular day trips to explore North Carolina's state parks. We frequently play tennis and pickleball and have taken up disc golf. I have also learned how to play golf over the past summer and have become passionate about the sport. Although skiing has become harder to come by since moving to Raleigh, I was still able to incorporate it into my schedule during winter 2025 and I hope to be able to continue that through future winters.
 
-In addition to outdoor activities, I continued playing guitar and writing music. After reconnecting with an old friend from South Carolina we collaborated on a [new song](https://open.spotify.com/track/6CGTV34sLjfALJyiikbTkw?si=5d023cebbb61486c) that has been released on Spotify. I also love playing board games with friends and have begun to participate in bar trivia on a semi-regular basis.
+In addition to outdoor activities, I continued playing guitar and writing music. After reconnecting with an old friend from South Carolina we collaborated on a new song that has been released on Spotify. I also love playing board games with friends and have begun to participate in bar trivia on a semi-regular basis.
 
 ---
 
