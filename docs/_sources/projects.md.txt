@@ -128,7 +128,7 @@ One of my favorite games growing up was a game called [Mastermind](https://en.wi
 
 If you have Python installed on your computer and would like to try my version of Mastermind out, click below to download the necessary scripts and run the `mastermind.py` file in an interactive terminal.
 
-* mastermind.zip[[Download]](project_files/mastermind.zip) 
+* `mastermind.zip` [[Download]](project_files/mastermind.zip) 
 
 When the script is run, it first gives the user the chance to change the rules from the default settings. For simplicity, instead of using colors for each input in the code, my version uses numbers. By default, it uses the integers 0 to 5 as possible inputs with a code length of four integers. The user can change these settings to vary the code length between 3 and 7 digits and vary the number of possible inputs between 4 and 10 integer values. The user can also set any number of tries to make the game easier or more difficult, as well as prevent the game from including duplicate integers in the code.
 
