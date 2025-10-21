@@ -12,10 +12,10 @@ During my time as a contractor at the [Environmental Protection Agency](https://
 
 The purpose of this Python tool is to make aircraft observations easily usable when assessing the performance of CMAQ forecasts. With the code available, CMAQ-FlightEval is primarily set up to handle observations from the [AEROMMA field campaign](https://csl.noaa.gov/projects/aeromma/), as this was the dataset I was using for my CMAQ performance analysis. If other sets of aircraft observations are desired, the code was designed to allow for new functions to be incorporated that can deal with the structure of the new data without interfering with the core functionality of the tool.
 
-When using AEROMMA data, a wide range of analysis functions are built into the package. This includes functions that plot general model bias, horizontal model bias, and figures like the one below showing vertical model bias. This particular figure shows that [benzene](https://pubchem.ncbi.nlm.nih.gov/compound/Benzene) was under-forecasted in the upper atmosphere but slightly overforecasted in the lower atmosphere.
+When using AEROMMA data, a wide range of analysis functions are built into the package. This includes functions that plot general model bias, horizontal model bias, and figures like the one below showing vertical model bias. This particular figure shows that [benzene](https://pubchem.ncbi.nlm.nih.gov/compound/Benzene) was under-forecasted in the upper atmosphere but slightly over-forecasted in the lower atmosphere.
 
 ![CMAQ-FlightEval Vertical Analysis Plot](_static/CMAQ_FlightEval_Vertical_Plot.png)
-*The figure shows a comparison of CMAQ benzene concentration forecasts to AEROMMA benzene concentration observations across a series of 500 meter thick altitude bins. CMAQ data is shown in red, while AEROMMA data is shown in black. For each altitude bin, the inter-quartile range or IQR (horizontal bars), the mean (plus signs), and the median (circles) are plotted for both datasets to understand the spread of the data in each altitude bin. In addition, the left plot shows a histogram representing the number of CMAQ-AEROMMA data pairs in each altitude bin to get a sense of how much data the statistics in a given altitude bin are based on.*
+*The figure shows a comparison of CMAQ benzene concentration forecasts to AEROMMA benzene concentration observations across a series of 500-meter-thick altitude bins. CMAQ data is shown in red, while AEROMMA data is shown in black. For each altitude bin, the inter-quartile range or IQR (horizontal bars), the mean (plus signs), and the median (circles) are plotted for both datasets to understand the spread of the data in each altitude bin. In addition, the left plot shows a histogram representing the number of CMAQ-AEROMMA data pairs in each altitude bin to get a sense of how much data the statistics in a given altitude bin are based on.*
 
 ## **North American Mesoscale (NAM) Analysis Data Extraction** 
 
@@ -117,3 +117,24 @@ Finally, the population of each county was multiplied by the annual tornado freq
 ![County Tornado Risk](_static/gis_term_project/tornado_risk_map.png)
 
 In this case, being "affected by a tornado" implies that someone might have come close to a tornado, not necessarily that it is actively causing damage to them or their property. The math does not represent a rigorous risk index, just a basic assessment of the relationship between population and tornado frequency.
+
+---
+
+# **Games**
+
+## **Mastermind**
+
+One of my favorite games growing up was a game called [Mastermind](https://en.wikipedia.org/wiki/Mastermind_(board_game)), a logic game where you try to guess a code consisting of four colored pegs. Because the game is logic based and only requires one player to make decisions, I thought it would be a fun challenge to write a Python script that runs the game. 
+
+If you have Python installed on your computer and would like to try my version of Mastermind out, click below to download the necessary scripts and run the `mastermind.py` file in an interactive terminal.
+
+* mastermind.zip[[Download]](project_files/mastermind.zip) 
+
+When the script is run, it first gives the user the chance to change the rules from the default settings. For simplicity, instead of using colors for each input in the code, my version uses numbers. By default, it uses the integers 0 to 5 as possible inputs with a code length of four integers. The user can change these settings to vary the code length between 3 and 7 digits and vary the number of possible inputs between 4 and 10 integer values. The user can also set any number of tries to make the game easier or more difficult, as well as prevent the game from including duplicate integers in the code.
+
+Once the rules are set, the game plays through telling you how many digits were the correct value and in the right position and how many were the correct value but in the wrong position for each guess you make.
+
+The game ends when you guess the correct code, or when you run out of guesses. Then it asks you if you want to play again.
+
+![Mastermind playthrough](_static/mastermind_playthrough.png)
+*An example of what a winning round of mastermind looks like using the `mastermind.py` script.*
