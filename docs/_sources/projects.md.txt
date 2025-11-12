@@ -14,7 +14,7 @@ The purpose of this Python tool is to make aircraft observations easily usable w
 
 When using AEROMMA data, a wide range of analysis functions are built into the package. This includes functions that plot general model bias, horizontal model bias, and figures like the one below showing vertical model bias. This particular figure shows that [benzene](https://pubchem.ncbi.nlm.nih.gov/compound/Benzene) was under-forecasted in the upper atmosphere but slightly over-forecasted in the lower atmosphere.
 
-![CMAQ-FlightEval Vertical Analysis Plot](_static/CMAQ_FlightEval_Vertical_Plot.png)
+![CMAQ-FlightEval Vertical Analysis Plot](_static/CMAQ_FlightEval_Vertical_Plot.png)  
 *The figure shows a comparison of CMAQ benzene concentration forecasts to AEROMMA benzene concentration observations across a series of 500-meter-thick altitude bins. CMAQ data is shown in red, while AEROMMA data is shown in black. For each altitude bin, the inter-quartile range or IQR (horizontal bars), the mean (plus signs), and the median (circles) are plotted for both datasets to understand the spread of the data in each altitude bin. In addition, the left plot shows a histogram representing the number of CMAQ-AEROMMA data pairs in each altitude bin to get a sense of how much data the statistics in a given altitude bin are based on.*
 
 ## **North American Mesoscale (NAM) Analysis Data Extraction** 
@@ -32,7 +32,7 @@ The `generate_nam_time_series.py` has a function called `nam_data_txt_files` whi
 
 When it is time to analyze the time series, `generate_nam_time_series.py` has a class called `nam_time_series` that allows the data from the time series text files to be rapidly loaded into a python script. The time series data can then be easily plotted using [Matplotlib](https://matplotlib.org/), producing figures like the one below:
 
-![Monsoon Conditions Time Series](_static/monsoon_time_series.jpg)
+![Monsoon Conditions Time Series](_static/monsoon_time_series.jpg)  
 *The figure shows 21-day running average time series of NAM analysis 2-m dewpoint temperature, 2-m temperature, [convective available potential energy (CAPE)](https://glossary.ametsoc.org/wiki/Convective_available_potential_energy), cloud coverage, and top-layer soil moisture in the interior southwest United States for the monsoon seasons of 2019 (green), 2021 (orange), and 2022 (light brown). This figure was included in a published article in the [Journal of Applied Meteorology and Climatology](https://journals.ametsoc.org/view/journals/apme/64/8/JAMC-D-24-0059.1.xml).*
 
 ## **Weather Research and Forecasting (WRF) Model Data Extraction**
@@ -43,7 +43,7 @@ As a graduate student working with the WRF model, I needed an easy way to contai
 
 The package is mainly centered around the `wrf_var_grids` class which stores and manipulates two dimensional variables and can perform some specific calculations. If three dimensional variables are needed, a class called `wrf_var_grids_3d` is included. Using a combination of `wrf_var_grids_3d` and some of the additional calculation functions, I created the following animation:
 
-![IVT-PWAT Animation](_static/ivt_pwat.gif)
+![IVT-PWAT Animation](_static/ivt_pwat.gif)  
 *The animation shows data from three WRF simulations: a basic control simulation, a field capacity simulation (FC) where regional soil moisture was set to [field capacity](https://glossary.ametsoc.org/wiki/Field_capacity) to serve as a wet soil case, and a wilting point simulation (WP) where regional soil moisture was set to [wilting point](https://glossary.ametsoc.org/wiki/Wilting_point) to serve as a dry soil case. The upper left panel shows time series of average [precipitable water (PWAT)](https://glossary.ametsoc.org/wiki/Precipitable_water) within the Interior Southwest region (defined by the black box on all other panels). The vertical black line with the three dots shows the PWAT values at the time the other panels are showing. The bottom left panel shows the distribution of [integrated vapor transport (IVT)](https://glossary.ametsoc.org/wiki/Transport) in the FC simulation. The bottom right panel shows the IVT distribution in the WP simulation. The top right panel shows the vector difference between the FC and WP IVT at each time step. For all three maps, arrows represent vector direction and color represents vector magnitude. The purpose of this animation is to see how IVT across the Interior Southwest's regional boundary relates to the changes in PWAT within the region.*
 
 ---
@@ -70,7 +70,7 @@ During my time, I assisted in the development of the following products:
 * [CONUS surface dewpoint temperature observations](https://vortex.plymouth.edu/mapwall/sfc/global/loop.html?region_name=us&prod_name=dew_point_temperature)  
 ![CONUS Dew Point](_static/vortex/dew_point.png)
 
-* [CONUS heat index temperature observations](https://vortex.plymouth.edu/mapwall/sfc/global/loop.html?region_name=us&prod_name=heat_index)
+* [CONUS heat index temperature observations](https://vortex.plymouth.edu/mapwall/sfc/global/loop.html?region_name=us&prod_name=heat_index)  
 ![Heat Index](_static/vortex/heat_index.png)  
 
 * [CONUS wind chill temperature observations](https://vortex.plymouth.edu/mapwall/sfc/global/loop.html?region_name=us&prod_name=wind_chill_temperature)  
@@ -136,5 +136,30 @@ Once the rules are set, the game plays through telling you how many digits were 
 
 The game ends when you guess the correct code, or when you run out of guesses. Then it asks you if you want to play again.
 
-![Mastermind playthrough](_static/mastermind_playthrough.png)
+![Mastermind playthrough](_static/mastermind_playthrough.png)  
 *An example of what a winning round of mastermind looks like using the `mastermind.py` script.*
+
+## **War Analysis**
+
+During my senior year at Plymouth State University, I took a course called Creating Games which taught the process of making new board games and card games. In class we played the card game [war](https://bicyclecards.com/how-to-play/war) to demonstrate how there are no decisions in some games (please click the previous link if you don't know how war works. It is a simple game so it should be a quick read.) With a lack of decisions for the players, it became clear to me that the winner should be somewhat predictable based on the initial state of each player's hand. 
+
+To verify the validity of this claim, I decided to write a python script to simulate the card game and perform analysis on the simulations. The script kept track of the initial average card value (IACV) and the number of aces dealt (NOAD) for each player, as well as which player won the game. Then, one million games were simulated to obtain a large sample of initial conditions and game result pairings which were written to an output file for analysis. The Python script below was responsible for running the simulations and writing the output file.
+
+* `war_simulator.py` [[Download]](project_files/war_simulator.py)
+
+The figures below were created from the data stored in the output file generated by `war_simulator.py`.
+
+![Initial Average Card Value vs Win Chance](_static/war_analysis/win_chance_vs_initial_average_card_value.png)  
+*Graph showing the percent chance of winning for each IACV quantile bin.*
+
+The figure demonstrates the influence of the initial conditions on the outcome of the game. As a player's IACV increases, their chance of winning also increases in response. The chance of winning is larger than 50% when the IACV is larger than 8, the mean IACV for all starting hands. In addition, the more extreme the IACV, the larger the deviation from a 50% chance of winning with 30% and 70% chances of winning for the smallest and largest IACV quantiles respectively.
+
+![Number of Aces Dealt vs Win Chance](_static/war_analysis/win_chance_vs_number_of_aces_dealt.png)  
+*Graph showing the percent chance of winning for each possible NOAD.*
+
+NOAD also has a clear relationship with the outcome of the game. The more aces a player starts with, the more likely they are to win. The only exception is starting with two aces which leads to exactly a 50% chance of winning, therefore having no influence on the final result. 
+
+The Python script below was responsible for creating all data visualizations for the war simulations as well as reporting some basic statistics about the game results that is also included below:
+
+* `war_simulation_analyzer.py` [[Download]](project_files/war_analysis/war_simulation_analyzer.py)
+* `all_game_stat.txt` [[Download]](project_files/war_analysis/all_game_stats.txt)

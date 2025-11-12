@@ -20,7 +20,7 @@ toctree_file = open(toctree_file_path, 'r')
 #if there is no toctree in index.md yet, add one based 
 #on the contents of toctree.txt
 if toctree_present == False:
-    index_file.write('\n\n\n\n')
+    index_file.write('\n')
     for line in toctree_file:
         index_file.write(line)
 

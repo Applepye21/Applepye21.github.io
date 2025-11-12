@@ -10,7 +10,7 @@
     * Accepted August 2, 2024 by the University of Utah  
     * University department: [Department of Atmospheric Sciences](https://atmos.utah.edu/)  
     * Thesis Committee members: [Zhaoxia Pu](https://www.inscc.utah.edu/~pu/) (chair), [Jim Steenburgh](https://www.inscc.utah.edu/~steenburgh/home/), and [Marysa Laguë](https://marysalague.com/)  
-    * Link to thesis: [https://www.proquest.com/openview/7bafda29ae4604f4f3ffdee752db216e/1?cbl=18750&diss=y&pq-origsite=gscholar](https://www.proquest.com/openview/7bafda29ae4604f4f3ffdee752db216e/1?cbl=18750&diss=y&pq-origsite=gscholar)
+    * Link to thesis: [https://www.proquest.com/openview/7bafda29ae4604f4f3ffdee752db216e](https://www.proquest.com/openview/7bafda29ae4604f4f3ffdee752db216e)
 
 ---
 

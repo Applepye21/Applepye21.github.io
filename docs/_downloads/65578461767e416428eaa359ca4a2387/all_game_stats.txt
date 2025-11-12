@@ -1,0 +1,32 @@
+War Simulation Statistics Report:
+
+Total games played: 1000000
+Games won by Player 1: 500831
+Games won by Player 2: 499169
+tie games: 0
+
+Overall mean initial card value: 8.0
+Overall median initial card value: 8.0
+
+Mean winning value: 8.10589526923077
+Median winning value: 8.115384615384615
+Max Win Mean: 10.346153846153848
+Min Win Mean: 5.769230769230769
+Chance of winning with a mean larger than 8: 56.67%
+
+Mean losing value: 7.8941047307692305
+Median losing value: 7.884615384615385
+Max Lose Mean: 10.23076923076923
+Min Lose Mean: 5.653846153846154
+
+Chance of winning with 0 aces: 21.84%
+Chance of winning with 1 ace: 35.90%
+Chance of winning with 2 aces: 50.00%
+Chance of winning with 3 aces: 64.10%
+Chance of winning with 4 aces: 78.16%
+
+Mean number of wars per game: 16.780996
+Median number of wars per game: 13.0
+Mode number of wars per game: 6
+Max number of wars in a game: 255
+
